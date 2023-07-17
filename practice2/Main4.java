@@ -8,6 +8,7 @@ public class Main4 {
 
         int age = (int) 3.2;
         // (変換先の型名)式で強制的に型変換できる
+        // ほとんど使用することがないので最終手段として使用する
         System.out.println(age);
     }
 
