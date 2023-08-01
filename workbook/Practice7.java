@@ -1,7 +1,12 @@
+import java.util.Scanner;
+
 public class Practice7 {
     public static void main(String[] args) {
         System.out.print("[メニュー] 1:検索 2:登録 3:削除 4:変更>");
-        int selected = new java.util.Scanner(System.in).nextInt();
+        Scanner scanner = new java.util.Scanner(System.in);
+
+        int selected = scanner.nextInt();
+        scanner.close();
         switch (selected) {
             case 1:
                 System.out.println("検索します");
@@ -18,4 +23,7 @@ public class Practice7 {
         }
     }
 }
-/* 条件分岐が多い場合swich文を使用したほうがコードが見やすくなる */
+/*
+ * 条件分岐が多い場合switch文を使用したほうがコードが見やすくなる
+ * Scannerに対してcloseメソッドを使用しないとエラーになってしまう
+ */
