@@ -4,11 +4,10 @@ public class Practice8 {
     public static void main(String[] args) {
         System.out.println("【数当てゲーム】");
         int ans = new java.util.Random().nextInt(10);
+        Scanner scanner = new java.util.Scanner(System.in);
         for (int i = 0; i < 5; i++) {
             System.out.println("0~9の数字を入力してください");
-            Scanner scanner = new java.util.Scanner(System.in);
             int num = scanner.nextInt();
-            scanner.close();
             if (ans == num) {
                 System.out.println("アタリ！");
                 break;
@@ -17,5 +16,12 @@ public class Practice8 {
             }
         }
         System.out.println("ゲームを終了します");
+        scanner.close();
     }
 }
+
+/*
+ * Scannerの位置が違うとエラーになる
+ * この場合for文の中にScanner scanner = new java.util.Scanner(System.in);を入れるとエラーになる
+ * closeの位置にも注意する
+ */

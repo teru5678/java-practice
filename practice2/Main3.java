@@ -1,4 +1,4 @@
-package practice2;
+package Practice2;
 
 public class Main3 {
     public static void main(String[] args) {
