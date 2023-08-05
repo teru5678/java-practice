@@ -8,3 +8,5 @@ public class Main2 {
         System.out.println(scores[1]); // 二つ目の要素scores[1]の中身を表示
     }
 }
+
+/* 配列は自動的に初期化される */
