@@ -1,3 +1,5 @@
+package practice3;
+
 public class Main5 {
     public static void main(String[] args) { // 1~9まで繰り返す
         for (int i = 1; i < 10; i++) {
