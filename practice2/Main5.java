@@ -1,3 +1,5 @@
+package practice2;
+
 public class Main5 {
     public static void main(String[] args) {
         double d = 8.5 / 2;
