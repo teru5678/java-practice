@@ -1,3 +1,5 @@
+package workbook;
+
 import java.util.Scanner;
 
 public class Practice7 {

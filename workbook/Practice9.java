@@ -1,6 +1,6 @@
 package workbook;
 
-public class practice9 {
+public class Practice9 {
     public static void main(String[] args) {
         int[] points = new int[4];
         double[] weights = new double[5];

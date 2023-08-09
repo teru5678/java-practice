@@ -1,3 +1,5 @@
+package workbook;
+
 public class Practice5 {
     public static void main(String[] args) {
         int isHungry = 1;
