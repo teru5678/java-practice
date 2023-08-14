@@ -1,11 +1,11 @@
-package practice6;
+package calcapp.main;
 
 public class Calc {
     public static void main(String[] args) {
         int a = 10;
         int b = 2;
-        int total = practice6.CalcLogic.tasu(a, b);
-        int delta = practice6.CalcLogic.hiku(a, b);
+        int total = calcapp.logics.CalcLogic.tasu(a, b);
+        int delta = calcapp.logics.CalcLogic.hiku(a, b);
         System.out.println("足すと" + total + "、引くと" + delta);
     }
 }
