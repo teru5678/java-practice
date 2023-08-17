@@ -2,13 +2,13 @@ package rpg;
 
 public class Main {
     public static void main(String[] args) {
+        Sword s = new Sword();
+        s.name = "炎の剣";
+        s.damage = 10;
         Hero h = new Hero(); // 勇者を生成
         h.name = "ミナト";
-        h.hp = 100;
-        System.out.println("勇者" + h.name + "を生み出しました！");
-        h.sit(5);
-        h.slip();
-        h.sit(25);
-        h.run();
+
+        h.sword = s;
+        System.out.println("現在の武器は" + h.sword.name);
     }
 }
