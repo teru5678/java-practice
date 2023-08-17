@@ -3,7 +3,6 @@ package rpg;
 public class Hero {
     String name;// 名前の宣言
     int hp;// HPの宣言
-    Sword sword; // 勇者が装備している剣の情報
 
     public void sleep() {
         this.hp = 100;
