@@ -32,7 +32,6 @@ public class Hero {
         this.name = name;
     }
 
-    public Hero() {
-        this("ダミー");// 同一クラスの別コンストラクタを呼び出せる
+    public Hero(){
+        this("ダミー");
     }
-}
