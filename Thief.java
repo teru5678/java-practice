@@ -10,7 +10,7 @@ public class Thief {
     }
 
     public Thief(String name, int hp) {
-        this(name, 5);
+        this(name, hp, 5);
         this.hp = 35;
     }
 
