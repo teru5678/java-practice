@@ -1,15 +1,17 @@
+package rpg;
+
 public class SuperHero extends Hero {
-    boolean fflying;
+    boolean flying;
 
     // 飛ぶ
     public void fly() {
-        this.name = true;
+        this.flying = true;
         System.out.println("飛び上がった!");
     }
 
     // 着地する
     public void land() {
-        this.name = false;
+        this.flying = false;
         System.out.println("着地した！");
     }
 }
