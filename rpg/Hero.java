@@ -2,7 +2,7 @@ package rpg;
 
 public class Hero {
     String name = "ミナト";// 名前の宣言
-    int hp = "100";// HPの宣言
+    int hp = 100;// HPの宣言
 
     // 戦う
     public void attack(Matango m) {
