@@ -1,6 +1,6 @@
 package rpg;
 
-public class Character {
+public abstract class Character {
     String name;
     int hp;
 
@@ -8,6 +8,5 @@ public class Character {
         System.out.println(this.name + "は逃げ出した");
     }
 
-    public void attack(Matango m) {
-    }
+    public abstract void attack(Matango m);
 }
