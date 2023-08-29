@@ -1,12 +1,17 @@
 package rpg;
 
-public abstract class Character {
-    String name;
-    int hp;
+public interface Character {
 
-    public void run() {
-        System.out.println(this.name + "は逃げ出した");
-    }
-
-    public abstract void attack(Matango m);
+    void run();
 }
+
+/*
+ * abstractとすることで抽象クラスにすることができる
+ * 抽象メソッドを含むクラスは必ずabstract付きのクラスにしなければならない
+ * 抽象クラスの制約としてnewによるインスタンス化が禁止される
+ */
+
+/*
+ * インターフェース宣言するとpublic abstractを省略できる
+ * 
+ */
